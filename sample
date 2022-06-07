@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+queue<int> k;
+k.push(1);
+k.push(2);
+k.push(3);
+k.push(4);
+k.push(5);
+cout<<k.front()<<endl;
+k.pop();
+cout<<k.front()<<endl;
+k.pop();
+cout<<k.front()<<endl;
+k.pop();
+cout<<k.front()<<endl;
+k.pop();
+cout<<k.front()<<endl;
+	return 0;
+}
